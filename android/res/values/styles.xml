@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WordLabTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@color/wordlab_bg</item>
+        <item name="android:statusBarColor">@color/wordlab_violet</item>
+        <item name="android:navigationBarColor">@color/wordlab_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

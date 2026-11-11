@@ -1,0 +1,65 @@
+{
+  "id": "/",
+  "name": "WordLab KS3 — English Vocabulary & Pronunciation",
+  "short_name": "WordLab",
+  "description": "600 words, 12 topics and 9 games for KS3 English: vocabulary, pronunciation practice, a story-writing coach and progress tracking for learners aged 11–14.",
+  "lang": "en-GB",
+  "dir": "ltr",
+  "start_url": "/#/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f7f3ff",
+  "theme_color": "#4c1d95",
+  "categories": ["education", "kids"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Topics",
+      "short_name": "Topics",
+      "description": "Browse the 12 vocabulary topics",
+      "url": "/#/topics",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Games",
+      "short_name": "Games",
+      "description": "Jump into a word game",
+      "url": "/#/games",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Story Coach",
+      "short_name": "Story",
+      "description": "Write a story with Coach Maple",
+      "url": "/#/story",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
